@@ -13,6 +13,8 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
+## Lab Summary
+
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
