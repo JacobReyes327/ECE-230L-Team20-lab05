@@ -14,6 +14,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 | Question 3 | Your answers to the question | 25% |
 
 ## Lab Summary
+This lab we learned how to connect modules written in different files to each other through the top level file, as well as how to assign an output to multiple different places using a wire, since the wire remembers its own value. We also learned that following naming conventions is extremely important in passing the test file, as it won’t work unless you follow that convention.
 
 ## Lab Questions
 
@@ -21,7 +22,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 The top level file connects the circuit together by assinging inputs and outputs to the gates. It assigns meaning to them by defining the physical inputs and outputs on the board.
 
 ### 2 - Explain the function of the Constraints file.
-
+The function of the constraints file is to assign the physical components of the board you are programming to the inputs and outputs you’ve assigned in your program.
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 For circuit a, it wouldn't have mattered if you used maxterms or minterms, since you would get the same result as long as you chose the most optimal result. Minterms would have been more intuitive, but the result is the same.
