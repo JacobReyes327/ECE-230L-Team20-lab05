@@ -24,4 +24,5 @@ The top level file connects the circuit together by assinging inputs and outputs
 
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
-For circuit a and circuit b, it wouldn't have mattered if you used maxterms or minterms, since you would get the same result as long as you chose the most optimal result. Minterms would have been more intuitive, but the result is the same.
+For circuit a, it wouldn't have mattered if you used maxterms or minterms, since you would get the same result as long as you chose the most optimal result. Minterms would have been more intuitive, but the result is the same.
+For circuit b, you would get the same number of terms with the same length, but not the exact same result. Minterms would still be more intuitive in this case.
